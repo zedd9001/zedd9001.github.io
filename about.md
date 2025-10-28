@@ -5,6 +5,6 @@ Hi! I'm Zack, i'm still in school, i always had a curiousity for computers and h
 This site is where I post my writeups and progress.
 
 ---
-Tools I love: Caido, Ffuf, bloodyAD, NetExec  
-Goals: Become a penetration tester or something similar in the future
-Languages: Python, bash
+**Tools I like**: Caido, Ffuf, bloodyAD, NetExec  
+**Goals**: Become a penetration tester or something similar in the future  
+**Languages**: Python, bash
