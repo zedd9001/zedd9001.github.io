@@ -2,9 +2,8 @@
 
 Welcome to my personal writeup site  
 [About me](/about.md)
----
 
-## 🧠 Latest Writeups
+## Latest Writeups
 Check out my most recent posts below:
 
 - [HTB: Example Machine](posts/htb-example-machine.md)
