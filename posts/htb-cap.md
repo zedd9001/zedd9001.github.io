@@ -1,7 +1,5 @@
 # Cap - HackTheBox | Detailed Writeup
 
-Hi guys thanks for reading, if you find this writeup helpful, please consider giving a ⭐ to my repo
-
 # Info about the Box
 **Name**: Cap  
 **Difficulty**: Easy  
