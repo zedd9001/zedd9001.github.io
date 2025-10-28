@@ -6,8 +6,7 @@ Welcome to my personal writeup site
 ## Latest Writeups
 Check out my most recent posts below:
 
-- [HTB: Example Machine](posts/htb-example-machine.md)
-- [HTB: Example Machine](posts/htb-example-machine.md)
+- [HTB: Cap](posts/htb-cap.md)
 ---
 
 Socials  
