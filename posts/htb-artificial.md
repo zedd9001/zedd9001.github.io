@@ -4,7 +4,7 @@
 **OS**: Linux  
 **Difficulty**: Easy  
 **Box creator**: : [FisMatHack](https://app.hackthebox.com/users/1076236)  
-**Writeup author**: [im4geeked](https://app.hackthebox.com/users/2732230)
+**Writeup author**: [zedd9001](https://app.hackthebox.com/users/2732230)
 # Intro 
 Artificial is an easy rated box that starts with a web app upload RCE. We find the app, grab the Dockerfile/requirements, build a malicious .h5 model inside Docker using a TensorFlow RCE PoC, upload it, and get a reverse shell as app. From there we dump instance/users.db, crack an MD5 hash to get `gael`'s password, SSH in as gael, find a Backrest service and a base64'd bcrypt secret, decode + crack it, log into Backrest, restore /root/.ssh/id_rsa, and then SSH in as root. Box owned.
 
