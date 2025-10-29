@@ -22,7 +22,8 @@ rustscan -a 10.10.11.74 -- -sC -sV -oN nmap/full-tcp.nmap
 `-oN nmap/full-tcp.nmap` -> Output the file in a normal readable format and store it at the `nmap` directory and call it `full-tcp.nmap`   
 ## Results:
 
-```PORT   STATE SERVICE REASON  VERSION
+```
+PORT   STATE SERVICE REASON  VERSION
 22/tcp open  ssh     syn-ack OpenSSH 8.2p1 Ubuntu 4ubuntu0.13 (Ubuntu Linux; protocol 2.0)
 | ssh-hostkey: 
 |   3072 7c:e4:8d:84:c5:de:91:3a:5a:2b:9d:34:ed:d6:99:17 (RSA)
