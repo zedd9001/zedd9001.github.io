@@ -5,8 +5,8 @@ Welcome to my personal writeup site
 
 ## Latest Writeups
 Check out my most recent posts below:
-
-- [HTB: Cap](posts/htb-cap.md)
+- [HTB: Artificial](posts/htb-artificial.md)
+- [HTB: Cap](posts/htb-cap.md)  
 ---
 
 Socials  
