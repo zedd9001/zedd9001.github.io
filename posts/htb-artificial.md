@@ -258,3 +258,15 @@ backrest_root:!@#$%^
 I was then greeted by the backrest web interface  
 ![alt text](/assets/img/htb/artificial/greeted-by-backrest.png)  
 
+I'll create a repo like this  
+![alt text](/assets/img/htb/artificial/repo.png)   
+and then a plan like this  
+![alt text](/assets/img/htb/artificial/plan.png)   
+then, i'll click `Backup Now`  
+![alt text](/assets/img/htb/artificial/backup-now.png)   
+then, i'll go to List `View` -> `Snapshot Browser` -> `/` -> `/root` -> `.ssh` -> `id_rsa` and then i'll restore it to `/tmp/id_rsa`  
+![alt text](/assets/img/htb/artificial/id.png)    
+Once done, we can select the task and download the file 
+![alt text](/assets/img/htb/artificial/root.png)    
+
+
