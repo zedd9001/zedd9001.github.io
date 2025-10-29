@@ -11,5 +11,4 @@ Check out my most recent posts below:
 
 Socials  
 - GitHub: [@zedd9001](https://github.com/zedd9001)
-
 - Discord: zedd9001
