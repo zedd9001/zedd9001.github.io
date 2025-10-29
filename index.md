@@ -12,3 +12,5 @@ Check out my most recent posts below:
 Socials  
 - GitHub: [@zedd9001](https://github.com/zedd9001)
 - Discord: zedd9001
+- HackTheBox: [zedd9001](https://app.hackthebox.com/users/2732230) 
+- TryHackMe: [zedd9001](https://tryhackme.com/p/zedd9001)
