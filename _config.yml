@@ -1,4 +1,6 @@
 title: Zack's blog
+logo: /assets/img/logo.png
 description: HTB & THM writeups 
 theme: jekyll-theme-minimal
 author: Zack
+url: "https://zedd9001.github.io"
