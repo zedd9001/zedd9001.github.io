@@ -268,5 +268,12 @@ then, i'll go to List `View` -> `Snapshot Browser` -> `/` -> `/root` -> `.ssh` -
 ![alt text](/assets/img/htb/artificial/id.png)    
 Once done, we can select the task and download the file 
 ![alt text](/assets/img/htb/artificial/root.png)    
+And then we can SSH as `root`!!
+```
+root@zack:~/htb/artificial# chmod 600 id_rsa
+root@zack:~/htb/artificial# ssh root@artificial.htb -i id_rsa
+```
+
+nice box!
 
 
