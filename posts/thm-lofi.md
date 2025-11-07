@@ -1,3 +1,4 @@
+# Lo-Fi - TryHackMe
 # Info about the CTF
 **Name**: Lo-Fi  
 **Challenge author**: cmnatic  
