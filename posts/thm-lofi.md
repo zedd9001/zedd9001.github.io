@@ -6,9 +6,9 @@
 Lo-Fi is a very simple THM challenge where we exploit LFI to read the flag
 # Recon
 ## Doing some enumeration
-This website is about listening to Lo-Fi. Sweet  
+This website is about listening to Lo-Fi. Sweet    
 ![alt text](/assets/img/thm/lofi/lofi.png)  
-Visiting one of the `Discography` sections, we can see something interesting in the URL  
+Visiting one of the `Discography` sections, we can see something interesting in the URL    
 ![alt text](/assets/img/thm/lofi/Discography.png)
 
 ## Potential LFI
@@ -19,7 +19,7 @@ http://10.201.124.223/?page=relax.php
 Learn more about `LFI` here:
 
 *  [Acunetix's blog on LFI](https://www.acunetix.com/blog/articles/local-file-inclusion-lfi/) 
-*  [BrightSec's blog on LFI](https://brightsec.com/blog/local-file-inclusion-lfi/)  
+*  [BrightSec's blog on LFI](https://brightsec.com/blog/local-file-inclusion-lfi/)
 ## Confirmed LFI vulnerability
 A common file to read on linux when you have LFI is `/etc/passwd`, so let's attempt to read it with LFI!  
 Changing the parameter to `../.././../etc/passwd`, gives us the output of `/etc/passwd`
