@@ -19,8 +19,8 @@ http://10.201.124.223/?page=relax.php
 ```
 Learn more about `LFI` here:
 
-*  [Acunetix's blog on LFI](https://www.acunetix.com/blog/articles/local-file-inclusion-lfi/) 
-*  [BrightSec's blog on LFI](https://brightsec.com/blog/local-file-inclusion-lfi/)
+- [Acunetix's blog on LFI](https://www.acunetix.com/blog/articles/local-file-inclusion-lfi/) 
+- [BrightSec's blog on LFI](https://brightsec.com/blog/local-file-inclusion-lfi/)
 ## Confirmed LFI vulnerability
 A common file to read on linux when you have LFI is `/etc/passwd`, so let's attempt to read it with LFI!  
 Changing the parameter to `../.././../etc/passwd`, gives us the output of `/etc/passwd`
