@@ -7,6 +7,7 @@ Welcome to my personal writeup site
 Check out my most recent posts below:
 ### - [HTB: Artificial](posts/htb-artificial.md)
 ### - [HTB: Cap](posts/htb-cap.md)  
+### - [THM: Lo-Fi](posts/thm-lofi.md)  
 ---
 
 Socials  
