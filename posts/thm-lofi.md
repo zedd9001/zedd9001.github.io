@@ -7,6 +7,7 @@ Lo-Fi is a very simple THM challenge where we exploit LFI to read the flag
 # Recon
 ## Doing some enumeration
 This website is about listening to Lo-Fi. Sweet  
+![alt text](/assets/img/thm/lofi/lofi.png)
 Visiting one of the `Discography` sections, we can see something interesting in the URL  
 ![alt text](/assets/img/thm/lofi/Discography.png)
 
