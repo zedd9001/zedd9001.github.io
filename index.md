@@ -5,6 +5,7 @@ Welcome to my personal writeup site
 
 ## Latest Writeups
 Check out my most recent posts below:
+### - [HMV: Friendly](posts/hmv-friendly1.md)
 ### - [HTB: Artificial](posts/htb-artificial.md)
 ### - [HTB: Cap](posts/htb-cap.md)  
 ### - [THM: Lo-Fi](posts/thm-lofi.md)  
