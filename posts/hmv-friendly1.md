@@ -3,7 +3,7 @@
 **Name**: [Friendly](https://hackmyvm.eu/machines/machine.php?vm=Friendly)  
 **Difficulty**: Easy   
 **Machine creator(s)**: [RiJaba1](https://hackmyvm.eu/profile/?user=RiJaba1)  
-**Writeup author:** [zedd9001](https://hackmyvm.eu/profile/?user=zedd9001)  
+**Writeup author**: [zedd9001](https://hackmyvm.eu/profile/?user=zedd9001)  
 # Intro 
 `Friendly` is an easy linux box made for beginners which starts with exploiting FTP to uploading a reverse shell on FTP which also has the webserver in it. Then we get root by exploiting `vim` and rooting this boot2root machine
 
