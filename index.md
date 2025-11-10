@@ -1,6 +1,6 @@
 # Hey, I’m Zack
 
-Welcome to my personal writeup site  
+## About me
 ```
 $ whoami
 zedd9001
