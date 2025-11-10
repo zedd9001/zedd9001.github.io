@@ -1,11 +1,12 @@
 # About Me
 ```
-zedd9001@writeups:~$ cat about/aboutme.txt
-Hi! I'm Zack (zedd9001), i'm still in school, i always had a curiosity for computers and how they work. I enjoy solving boxes on HTB and TryHackMe and share writeups here to help people learn and to reinforce some of my learning aswell
-zedd9001@writeups:~$ cat about/website.txt
-This site is where I post my writeups and progress.
-zedd9001@writeups:~$ cat about/favourite-tools.txt
-Caido, Ffuf, bloodyAD, NetExec  
-zedd9001@writeups:~$ cat about/languages.txt
-python, bash
+$ whoami
+zedd9001
+$ cat README.md
+Hey! I'm Zack
+I'm still in school and I am very passionate about computer science and cyber! 
+$ cat projects.md
+user-finder.py/user-finder.py 
+A tool that scans a given username across multiple social media domains 
+More to come! 
 ```
