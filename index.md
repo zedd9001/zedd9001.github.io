@@ -17,10 +17,10 @@ More to come!
 ## Latest Writeups
 Check out my most recent posts below:
 ### - [HTB: Outbound](posts/htb-outbound.md)
-Outbound is an easy rated linux assumed-breached machine which with the starting credentials, we get access to the Roundcube webmail interface. From there, we enumerate the Roundcube version and find out that it is vulnerable to `CVE-2025–49113`, a post-authenticated PHP object deserialization vulnerability effectively giving us RCE. After getting a shell on the target. We find database credentials in the config file for the web server. Connecting to the `mysql` database and enumerating it, we find a session that belongs to Jacob user that when base64 decoded, we find an encrypted password. Using the `decrypt.sh` file in the webserver, we can decode it and get access to her Roundcube mail. From there, we get a mail containing credentials for jacob's account.  
-  
-Getting SSH access as jacob, and a bit of enumeration, we find out that we can run the `below` monitoring utility with root privileges. That utility is vulnerable to `CVE-2025-27591` which then we can escalate our privileges to a new user with a root-level UID
-# Box info
+Outbound is an easy linux assumed-breached box. With the starting creds, we log into the Roundcube webmail panel and quickly see it’s running a vulnerable version affected by `CVE-2025-49113`, a post-auth PHP object deserialization bug that gives us RCE. After popping a shell, we grab the database creds from the web config and go into MySQL. There, we find a session for the `jacob` user; base64-decoding it reveals an encrypted password. Using the `decrypt.sh` script on the box, we can decrypt it and access Jacob’s Roundcube mailbox, where we find valid login credentials.
+
+With SSH access as jacob, some quick enumeration shows we can run the `below` monitoring utility as root. That tool is vulnerable to `CVE-2025-27591`, letting us escalate to a new user with a root-level UID.
+
 ### - [HMV: Friendly](posts/hmv-friendly1.md)
 Friendly is an easy linux box made for beginners which starts with exploiting FTP to uploading a reverse shell on FTP which also has the webserver in it. Then we get root by exploiting vim and rooting this boot2root machine
 ### - [HTB: Artificial](posts/htb-artificial.md)
