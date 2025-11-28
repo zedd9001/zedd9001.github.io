@@ -10,12 +10,15 @@ I'm still in school but I am very passionate about
 computer science and cyber! 
 $ cat projects.md
 user-finder.py/user-finder.py 
--  A tool that scans a given username across multiple social media domains 
+   - A tool that scans a given username across multiple social media domains 
 More to come! 
 ```
 
 ## Latest Writeups
 Check out my most recent posts below:
+### - [VL: Retro](posts/vl-retro.md)
+Retro is a easy active directory box where we enumerate a share, find out that the `trainee` user has a weak password, enumerate users, and then make a users.txt and pass the pass the password as the usernames from the user.txt and find out that one did indeed work and from there, we enumerate another share and exploit "Pre Created Computer Accounts" which was really fun. And then we exploit AD CS ESC1 and get Administrator
+
 ### - [HTB: Outbound](posts/htb-outbound.md)
 Outbound is an easy linux assumed-breached box. With the starting creds, we log into the Roundcube webmail panel and quickly see it’s running a vulnerable version affected by `CVE-2025-49113`, a post-auth PHP object deserialization bug that gives us RCE. After popping a shell, we grab the database creds from the web config and go into MySQL. There, we find a session for the `jacob` user; base64-decoding it reveals an encrypted password. Using the `decrypt.sh` script on the box, we can decrypt it and access Jacob’s Roundcube mailbox, where we find valid login credentials.
 
