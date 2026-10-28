@@ -1,0 +1,29 @@
+---
+layout: default
+---
+{% assign section = site.data.sections | where: "id", page.section | first %}
+
+<div class="post">
+  <div class="post-meta">
+    {% if section %}
+      <a href="{{ section.url | relative_url }}">&larr; {{ section.title }}</a>
+    {% else %}
+      <a href="{{ '/' | relative_url }}">&larr; Home</a>
+    {% endif %}
+    {% if page.date %}
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+    {% endif %}
+  </div>
+
+  <article class="prose">
+    {{ content }}
+  </article>
+
+  <nav class="post-footer" aria-label="Post navigation">
+    {% if section %}
+      <a href="{{ section.url | relative_url }}">Back to {{ section.title }}</a>
+    {% else %}
+      <a href="{{ '/' | relative_url }}">Back to home</a>
+    {% endif %}
+  </nav>
+</div>

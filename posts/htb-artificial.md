@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Artificial — HackTheBox"
+section: ctf
+date: 2025-10-30
+---
+
 # Artificial - HackTheBox | Detailed Writeup
 # Box info
 **Name**: Artificial  

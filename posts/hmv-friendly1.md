@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Friendly — HackMyVM"
+section: ctf
+date: 2025-11-09
+---
+
 # Friendly from HackMyVM - Detailed writeup
 # Box info
 **Name**: [Friendly](https://hackmyvm.eu/machines/machine.php?vm=Friendly)  

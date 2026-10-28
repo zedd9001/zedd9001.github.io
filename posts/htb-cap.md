@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Cap — HackTheBox"
+section: ctf
+date: 2025-10-29
+---
+
 # Cap - HackTheBox | Detailed Writeup
 
 # Info about the Box

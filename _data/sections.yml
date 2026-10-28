@@ -1,0 +1,12 @@
+- id: ctf
+  title: CTF writeups
+  url: /ctf-writeups/
+  description: "Security writeups from HackTheBox, HackMyVM, TryHackMe, VulnLab and other lab platforms"
+- id: server
+  title: Server/Linux
+  url: /server-linux/
+  description: "Writeups on troubleshooting platforms like SadServers or general guides on Linux."
+- id: other
+  title: Other
+  url: /other/
+  description: "Other things like gaming, ricing and other side projects."

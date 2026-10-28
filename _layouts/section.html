@@ -1,0 +1,29 @@
+---
+layout: default
+---
+{% assign section = site.data.sections | where: "id", page.section | first %}
+{% assign writeups = site.pages | where: "section", page.section | where_exp: "item", "item.path contains 'posts/'" | sort: "date" | reverse %}
+
+<header class="page-header">
+  <h1>{{ page.title }}</h1>
+  {% if section.description %}
+    <p class="page-intro">{{ section.description }}</p>
+  {% endif %}
+</header>
+
+{{ content }}
+
+{% if writeups.size > 0 %}
+  <ul class="post-list">
+    {% for writeup in writeups %}
+      <li class="post-list-item">
+        <a class="post-list-title" href="{{ writeup.url | relative_url }}">{{ writeup.title | default: writeup.name }}</a>
+        {% if writeup.date %}
+          <time class="post-list-date" datetime="{{ writeup.date | date_to_xmlschema }}">{{ writeup.date | date: "%Y-%m-%d" }}</time>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p class="post-list-empty">No posts in this section yet.</p>
+{% endif %}

@@ -1,6 +1,7 @@
 title: Zack's blog
-logo: /assets/img/logo.jpg
-description: Cybersecurity stuff
-theme: jekyll-theme-minimal
+logo: /assets/img/plushpc.png
+description: Tech stuff
 author: Zack
 url: "https://zedd9001.github.io"
+plugins:
+  - jekyll-seo-tag

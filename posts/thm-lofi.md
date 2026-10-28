@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Lo-Fi — TryHackMe"
+section: ctf
+date: 2025-11-07
+---
+
 # Lo-Fi - TryHackMe
 # Info about the CTF
 **Name**: Lo-Fi  

@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Retro — VulnLab"
+section: ctf
+date: 2025-11-28
+---
+
 # Box intro
 Retro is a easy active directory box where we enumerate a share, find out that the `trainee` user has a weak password, enumerate users, and then make a users.txt and pass the pass the password as the usernames from the user.txt and find out that one did indeed work and from there, we enumerate another share and exploit "Pre Created Computer Accounts" which was really fun. And then we exploit AD CS ESC1 and get Administrator
 

@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Outbound — HackTheBox"
+section: ctf
+date: 2025-11-23
+---
+
 # Box intro 
 Outbound is an easy rated linux assumed-breached machine which with the starting credentials, we get access to the Roundcube webmail interface. From there, we enumerate the Roundcube version and find out that it is vulnerable to `CVE-2025–49113`, a post-authenticated PHP object deserialization vulnerability effectively giving us RCE. After getting a shell on the target. We find database credentials in the config file for the web server. Connecting to the `mysql` database and enumerating it, we find a session that belongs to Jacob user that when base64 decoded, we find an encrypted password. Using the `decrypt.sh` file in the webserver, we can decode it and get access to her Roundcube mail. From there, we get a mail containing credentials for jacob's account.  
   
